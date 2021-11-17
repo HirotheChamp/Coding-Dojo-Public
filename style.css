@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+}
+.topbar {
+    background-color:gainsboro;
+    
+   
+    align-items: center;
+    
+   
+
+}
+
+h1, .button {
+    display: inline;
+}
+#button{
+   font-size: 20px;
+    
+ border-radius: 5px;
+ background-color: lightseagreen;
+ 
+}
+.col, .col-2, .col-3 {
+    
+    
+    
+    border: black;
+    border-style: solid;
+}
+.topbar h1, .topbar button {
+    margin: 10px;
+}
+
+.col { 
+    height: 300px;
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    
+    
+  
+}
+
+
+.col-2 {
+    height: 300px;
+    width: 300px;
+  position: absolute;
+  right: 400px;
+  top: 160px;
+
+}
+
+
+.between {
+    justify-content: space-between;
+}
+
+.col-2 span{
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 5px 10px 5px;
+    font-family: sans-serif;
+}
+
+.col-2 button {
+    color: white;
+    width: 180px;
+    margin: 10px 10px 10px 10px;
+    background-color: darkgoldenrod;
+    
+}
+
+.col {
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding-right: 200px;
+    margin-top: 100px;
+    
+ 
+}
+
+.col-3{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+
+.col-3 button {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
+    
+   
+   
+}
+.col-3 button{
+    text-align: center;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+
+ p span{
+     font-style: italic;
+     font-family: sans-serif;
+ }
+
+ .col button{
+     margin-left: 10px;
+     font-size: 20px;
+     
+     background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%)
+ }
